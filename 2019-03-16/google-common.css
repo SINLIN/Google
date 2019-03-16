@@ -1,0 +1,271 @@
+/* Remove Element */
+.bkWMgd > div:not([class]),
+[id^="ed_"],
+.xfxx5d,
+.csb,
+#extrares,
+#bottomads,
+#rhs .kno-ftr.rhsvw,
+#imagebox_bigimages,
+#tads {
+    display: none!important;
+    opacity:0!important;
+}
+
+/* global */
+body {
+    background-color: #f1f2f3!important;
+}
+
+
+
+/* head layout */
+
+#tsf{
+    position:fixed!important;
+    
+}
+
+.sfbg {
+    position: fixed!important;
+    background: #f1f2f3!important;
+    box-shadow: none!important;
+    height:74px!important;
+}
+
+
+
+#hdtb-tls,
+#ab_options,
+#ow15,
+#hdtb-msb-vis>div{
+    font-size:16px!important;
+}
+
+#hdtbSum {
+    background: #f1f2f3!important;
+}
+
+.minidiv .sfbg,
+#hdtbSum {
+/*     	box-shadow: 0 1px 10px 1px #afafaf!important; */
+    border: 1px solid #d2d2d2;
+}
+
+
+
+#hdtb-msb .hdtb-mitem.hdtb-msel {
+    border: none!important;
+    position: relative!important;
+}
+
+#hdtb-msb .hdtb-mitem.hdtb-msel:after {
+    content: "";
+    background: #4285f4;
+    position: absolute;
+    width: 95%;
+    height: 5px;
+    left: 0;
+    bottom: -2px;
+
+    border-radius: 10px;
+}
+
+.gsfi,
+.lst {
+    font: 20px arial!important;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.RNNXgb {
+    border: none!important;
+    border-radius: 3px!important;
+}
+
+
+.UUbT9{
+    margin-top:5px!important;
+}
+.aajZCb{
+    border-radius:0!important;
+    border-radius:5px!important;
+}
+.sbl1{
+    font-size:16px!important;
+}
+.sbct{
+    line-height:2!important;
+}
+
+#searchform.minidiv{
+/*     top:10px!important; */
+}
+
+.minidiv .sfbg {
+    height: 90px!important;
+}
+
+.minidiv .Tg7LZd {
+    height: 44px!important;
+    
+}
+
+.minidiv .Tg7LZd svg{
+    width:24px!important;
+    height:24px!important;
+}
+
+.minidiv .RNNXgb {
+    height: 44px!important;
+    margin:0 auto!important;
+    margin-top:15px!important;
+}
+
+
+
+.minidiv #logo img {
+    top:0!important;
+    height: 30px!important;
+    width:92px!important;
+  
+}
+
+.minidiv .logo{
+    padding: 4px 28px 0 30px;  
+}
+
+.minidiv .hb2Smf{
+    height: 24px!important;
+    width: 24px!important;
+    background-size: 24px!important;
+}
+.minidiv #gb{
+    top:20px!important;
+}
+/* left result layout */
+#appbar {
+    background: transparent!important;
+}
+
+.kp-blk {
+    border: none!important;
+}
+.bkWMgd > .g,
+.srg > .g {
+    padding: 15px 20px!important;
+    margin: 8px -20px!important;
+    border-radius: 3px!important;
+    background-color: #fff!important;
+}
+
+.xERobd {
+    border: 1px solid blue;
+}
+
+
+#res h3{
+    font-size:16px!important;
+    color:#014aa5!important;
+    margin-bottom:5px!important;
+    text-decoration:none!important;
+    position:relative;
+}
+
+#res h3:after{
+    content:"";
+    position:absolute;
+    width:0;
+    left:100%;
+    bottom:-1px;
+    border-bottom:1px solid;
+    -webkit-transition: width 350ms, left 350ms;
+    -moz-transition: width 350ms, left 350ms;
+    transition: width 350ms, left 350ms;
+}
+
+#res h3:hover:after{
+    left: 0;
+    width: 100%;
+    -webkit-transition: width 350ms;
+    -moz-transition: width 350ms;
+    transition: width 350ms;
+}
+
+#res .g .r a:visited h3{
+    color:#500fa2!important;
+}
+
+#res .g .r a.l{
+    color:#014aa5!important;
+    font-size:15px!important;
+}
+
+.iUh30:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.r>a.fl{
+    color:#006621!important;
+}
+.osl>a.fl{
+    color:#014aa5!important;
+}
+
+
+/* right result layout */
+#rhs {
+    margin-left: 790px!important;
+}
+#rhs .kp-blk {
+    background: #fff!important;
+    padding: 5px!important;
+    border-radius: 3px!important;
+}
+
+#rhs .g {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#rhs a{
+    color:#014aa5!important;
+}
+
+
+
+/* page number */
+#foot tbody tr>td {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0px 5px;
+    line-height: 38px!important;
+    cursor: pointer;
+    color: #535d6d;
+    background: #e1e2e3;
+    border-radius:2px!important;
+    
+}
+
+#foot #navcnt a {
+    font-size: 16px;
+    color: #535d6d!important;
+  
+}
+#foot #navcnt .cur {
+    background: #5691e9;
+    color: white;
+    font-size: 16px;
+}
+#foot tbody tr>td:hover,
+#foot tbody tr>td:hover a {
+    background:#fff;
+    text-decoration: none;
+}
+#foot tbody tr>td[class*='b'] {
+    display: none;
+}
+
+
+
