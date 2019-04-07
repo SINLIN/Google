@@ -50,6 +50,7 @@
 }
 #center_col{
     margin:0 auto!important;
+   
 }
 /* footer */
 .fbar,
@@ -57,6 +58,46 @@
    
     width:500px;
     margin:0 auto;
+} 
+
+#center_col{
+    width:100%!important;
+}
+#res{
+    width:1380px!important;
+    margin:0 auto;
+}
+.bkWMgd .g, .srg .g{
+    width:640px!important;
+}
+
+.googlelists{
+    float:left!important;
+    
+}
+.googlelists> .g{
+    
+    width:680px!important;
+   
+}
+
+.googlelists.googlelists2{
+    margin-left:50px!important;
+}
+#cnt #center_col, #cnt #foot {
+   
+    margin: auto!important;
+}
+
+#rso:after{
+    content:""!important;
+    display:table!important;
+    clear:both!important;
+}
+
+#foot{
+    margin-top:50px!important;
+    margin-bottom:50px!important;
 } 
 
 
