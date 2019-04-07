@@ -177,7 +177,7 @@ body {
 	position: absolute;
 	width: 0;
 	left: 100%;
-	bottom: -1px;
+	bottom: 1px;
 	border-bottom: 1px solid;
 	-webkit-transition: width 350ms, left 350ms;
 	-moz-transition: width 350ms, left 350ms;
