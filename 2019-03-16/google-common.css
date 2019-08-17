@@ -19,6 +19,9 @@
 body {
 	background-color: #f1f2f3!important;
 }
+.r>a{
+	text-decoration:none!important;
+}
 
 
 /* head layout */
@@ -286,6 +289,8 @@ body {
 	border-radius: 3px;
 	margin-right: 10px;
 	cursor: pointer;
+	position: absolute;
+    margin-left: -70px;
 }
 
 #myGoogleMenuButton:hover {
