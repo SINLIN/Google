@@ -22,6 +22,9 @@ body {
 .r>a{
 	text-decoration:none!important;
 }
+.exp-outline{
+	border:none!important;
+}
 
 
 /* head layout */
