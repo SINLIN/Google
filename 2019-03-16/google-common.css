@@ -4,6 +4,7 @@
 [id^="ed_"],
 .xfxx5d,
 .csb,
+.RNNXgb .iblpc,
 #extrares,
 #bottomads,
 #rhs .kno-ftr.rhsvw,
@@ -21,9 +22,6 @@ body {
 }
 .r>a{
 	text-decoration:none!important;
-}
-.exp-outline{
-	border:none!important;
 }
 
 
@@ -80,8 +78,16 @@ body {
 	line-height: 1;
 }
 
+.A8SBwf.sbfc{
+    width:638px!important;
+    padding-left:27px!important;
+   
+} 
+
 .RNNXgb {
+    
 	border: none!important;
+    width:638px!important;
 	border-radius: 3px!important;
 }
 
@@ -99,7 +105,7 @@ body {
 }
 
 .sbct {
-	line-height: 2!important;
+	line-height: 1.2!important;
 }
 
 #searchform.minidiv {
