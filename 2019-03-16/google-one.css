@@ -27,6 +27,11 @@
     padding-left:0!important;
 /*     margin:0 auto!important; */
 }
+
+
+#cnt #center_col, #cnt #foot {
+    width: 600px!important;
+}
 #hdtb-msb-vis{
     margin-left:0!important;
 }

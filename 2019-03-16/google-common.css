@@ -6,6 +6,9 @@
 .csb,
 .RNNXgb .iblpc,
 .SJajHc,
+/* #rso>div:not([class="g"]), */
+#rso g-section-with-header,
+/* #rso>.g+div:not([class="g"]), */
 #extrares,
 #bottomads,
 #rhs .kno-ftr.rhsvw,
@@ -93,6 +96,7 @@ body {
 	border: none!important;
     width:638px!important;
 	border-radius: 3px!important;
+	    box-shadow: 0 0px 30px 1px rgba(0,0,0,.1)!important;
 }
 
 .UUbT9 {
@@ -175,6 +179,7 @@ body {
 	margin: 8px -20px!important;
 	border-radius: 3px!important;
 	background-color: #fff!important;
+	box-shadow: 0 0px 30px 1px rgba(0,0,0,.1)!important;
 }
 
 .xERobd {
@@ -274,6 +279,7 @@ body {
 	color: #535d6d;
 	background: #e1e2e3;
 	border-radius: 2px!important;
+	 box-shadow: 0 0px 1px 1px rgba(0,0,0,.1)!important;
 }
 
 #foot #navcnt a {
@@ -301,22 +307,21 @@ body {
 /* menu */
 
 #myGoogleMenuButton {
-	max-width: 60px;
-/* 	background: #4285f4; */
-/* 	color: #fff; */
-	line-height: 1!important;
-	height: inherit!important;
-	padding: 10px;
-	box-sizing: border-box!important;
-	border-radius: 3px;
-	margin-right: 10px;
-	cursor: pointer;
-	position: absolute;
+max-width: 60px;
+    /* background: #4285f4; */
+    color: #2196F3;
+    line-height: 1!important;
+    height: inherit!important;
+    padding: 10px;
+    box-sizing: border-box!important;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: absolute;
     margin-left: -70px;
-/*       margin-left: 50px; */
-    margin-top: 17px;
+    /* margin-left: 50px; */
+    margin-top: 5px;
     font-size: 16px;
-  
 }
 
 #myGoogleMenuButton:hover {
