@@ -2,13 +2,16 @@
 
 .bkWMgd>div:not([class]),
 [id^="ed_"],
+[data-hveid="CB4QAA"],
 .xfxx5d,
 .csb,
 .RNNXgb .iblpc,
 .SJajHc,
+.OwRFvb.kno-fb,
 /* #rso>div:not([class="g"]), */
 #rso g-section-with-header,
 /* #rso>.g+div:not([class="g"]), */
+#sbfblt,
 #extrares,
 #bottomads,
 #rhs .kno-ftr.rhsvw,
@@ -86,7 +89,7 @@ body {
 }
 
 .A8SBwf{
-/*     width:638px!important; */
+    width:692px!important;
     padding-left:0px!important;
    
 } 
@@ -159,6 +162,11 @@ body {
 	top: 20px!important;
 }
 
+.aajZCb{
+	width:638px;
+	margin:auto!important;
+								
+}
 
 /* left result layout */
 
@@ -168,6 +176,10 @@ body {
 
 .kp-blk {
 	border: none!important;
+}
+#center_col .kp-blk {
+    position: relative;
+    width: 560px!important;
 }
 
 #rso>.g,
