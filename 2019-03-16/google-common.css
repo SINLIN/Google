@@ -8,6 +8,8 @@
 .RNNXgb .iblpc,
 .SJajHc,
 .OwRFvb.kno-fb,
+.xERobd,
+#rso>[data-hveid],
 /* #rso>div:not([class="g"]), */
 #rso g-section-with-header,
 /* #rso>.g+div:not([class="g"]), */
@@ -282,6 +284,9 @@ body {
 
 
 /* page number */
+#foot {
+    width: 560px!important;
+}
 
 #foot tbody tr>td {
 	display: inline-block;
@@ -291,9 +296,9 @@ body {
 	line-height: 38px!important;
 	cursor: pointer;
 	color: #535d6d;
-	background: #e1e2e3;
+	background: #ffffff;
 	border-radius: 2px!important;
-	 box-shadow: 0 0px 1px 1px rgba(0,0,0,.1)!important;
+/* 	box-shadow: 0 0px 1px 1px rgba(0,0,0,.1)!important; */
 }
 
 #foot #navcnt a {
