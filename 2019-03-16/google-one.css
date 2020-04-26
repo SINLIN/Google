@@ -19,8 +19,9 @@
     padding-left:0!important;
 } 
 .A8SBwf .UUbT9{
-    width:638px!important;
-}
+    /*width:638px!important;*/
+   width:100%!important;
+   }
 .A8SBwf{
     width:inherit!important;
     margin:0!important;
