@@ -296,9 +296,17 @@ body {
 	line-height: 38px!important;
 	cursor: pointer;
 	color: #535d6d;
-	background: #ffffff;
+	background: #e1e2e3;
 	border-radius: 2px!important;
+	
 /* 	box-shadow: 0 0px 1px 1px rgba(0,0,0,.1)!important; */
+}
+
+#foot tbody tr>td a:hover{
+	height:36px;
+	background:#fff!important;
+/* 	outline:1px solid; */
+	box-shadow: 0 0px 10px 1px rgba(0,0,0,.1)!important;
 }
 
 #foot #navcnt a {
