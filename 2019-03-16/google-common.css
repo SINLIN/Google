@@ -18,6 +18,7 @@
 #bottomads,
 #rhs .kno-ftr.rhsvw,
 #imagebox_bigimages,
+#search .g div[jscontroller],
 #promos,
 #tads {
 	display: none!important;
