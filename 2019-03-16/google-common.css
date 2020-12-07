@@ -2,41 +2,25 @@
 
 .bkWMgd>div:not([class]),
 [id^="ed_"],
-[data-hveid="CB4QAA"],
 .xfxx5d,
 .csb,
 .RNNXgb .iblpc,
-.SJajHc,
-.OwRFvb.kno-fb,
-.xERobd,
-#rso>[data-hveid],
-/* #rso>div:not([class="g"]), */
-#rso g-section-with-header,
-/* #rso>.g+div:not([class="g"]), */
-#sbfblt,
+.LnbJhc,
+.AUiS2,
+#eob_13,
 #extrares,
 #bottomads,
+#botstuff,
 #rhs .kno-ftr.rhsvw,
+
+#rso>div>div:not([class]),
 #imagebox_bigimages,
-#search .g div[jscontroller],
-#promos,
+#xjs td span,
 #tads {
 	display: none!important;
 	opacity: 0!important;
 } 
 
-#search .LC20lb.DKV0Md{
-    position:relative!important;
-    top:-25px!important;
-}
-
-#search .TbwUpd.NJjxre{
-    top:22px!important;
-}
-
-#search .B6fmyf{
-    top:22px!important;
-}
 
 /* global */
 
@@ -49,9 +33,7 @@ body {
 
 
 /* head layout */
-#searchform{
-/* 	top:20px!important; */
-}
+
 #tsf {
 	position: fixed!important;
 }
@@ -104,8 +86,11 @@ body {
 }
 
 .A8SBwf{
-    width:692px!important;
     padding-left:0px!important;
+}
+.A8SBwf.sbfc{
+    width:638px!important;
+    padding-left:27px!important;
    
 } 
 
@@ -114,7 +99,6 @@ body {
 	border: none!important;
     width:638px!important;
 	border-radius: 3px!important;
-	    box-shadow: 0 0px 30px 1px rgba(0,0,0,.1)!important;
 }
 
 .UUbT9 {
@@ -134,9 +118,9 @@ body {
 	line-height: 1.2!important;
 }
 
-#searchform.minidiv {
-	/*     top:10px!important; */
-}
+/* #searchform.minidiv {
+	    top:10px!important;
+} */
 
 .minidiv .sfbg {
 	height: 90px!important;
@@ -177,11 +161,6 @@ body {
 	top: 20px!important;
 }
 
-.aajZCb{
-	width:638px;
-	margin:auto!important;
-								
-}
 
 /* left result layout */
 
@@ -192,49 +171,77 @@ body {
 .kp-blk {
 	border: none!important;
 }
-#center_col .kp-blk {
-    position: relative;
-    width: 560px!important;
+
+.rc>div:first-child a.fl:link,.rc>div:first-child .fl a,.rc>div:first-child .gl a:link{
+    color:#01903b!important;
 }
 
-#rso>.g,
-.googlelists>.g,
-.bkWMgd>.g,
-.srg>.g {
+/* .googlelists>.g, */
+/* .bkWMgd>.g, */
+/* .srg>.gk, */
+#rso>div>.g
+ {
 	box-sizing: border-box!important;
 	padding: 15px 20px!important;
 	margin: 8px -20px!important;
 	border-radius: 3px!important;
 	background-color: #fff!important;
-	box-shadow: 0 0px 30px 1px rgba(0,0,0,.1)!important;
+   position:relative;  
 }
+
+#rso>div>.g:after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0px 30px 1px rgba(0,0,0,.1);
+}
+
+#rso>div{
+   margin-bottom:0px!important;
+}
+    
 
 .xERobd {
 	border: 1px solid blue;
 }
 
+#res .rc>div>a{
+    text-decoration: none!important;
+}
+
+/* #res h3>div, */
 #res h3 {
-/* 	    font-weight: bold!important; */
 	font-size: 16px!important;
+   font-weight:bold;
 	color: #014aa5!important;
 	margin-bottom: 5px!important;
 	text-decoration: none!important;
-	position: relative;
+	position: relative!important;
+  
+
 }
 
-#res h3:after {
+#res h3 span{
+    position: relative!important;
+}
+
+#res h3 span:after {
 	content: "";
 	position: absolute;
 	width: 0;
 	left: 100%;
-	bottom: 1px;
-	border-bottom: 1px solid;
+	bottom: -1px;
+	border-bottom: 2px solid;
 	-webkit-transition: width 350ms, left 350ms;
 	-moz-transition: width 350ms, left 350ms;
 	transition: width 350ms, left 350ms;
 }
 
-#res h3:hover:after {
+#res h3 span:hover:after {
 	left: 0;
 	width: 100%;
 	-webkit-transition: width 350ms;
@@ -264,26 +271,17 @@ body {
 	color: #014aa5!important;
 }
 
-.eFM0qc a.fl:link{
-	color:#34a853!important;
-}
-.r .bc,
-.eipWBe{
-	color:#34a853!important;
-}	
 
 /* right result layout */
 
 #rhs {
 	margin-left: 790px!important;
-	
 }
 
 #rhs .kp-blk {
 	background: #fff!important;
 	padding: 5px!important;
 	border-radius: 3px!important;
-	
 }
 
 #rhs .g {
@@ -297,9 +295,6 @@ body {
 
 
 /* page number */
-#foot {
-    width: 560px!important;
-}
 
 #foot tbody tr>td {
 	display: inline-block;
@@ -311,15 +306,6 @@ body {
 	color: #535d6d;
 	background: #e1e2e3;
 	border-radius: 2px!important;
-	
-/* 	box-shadow: 0 0px 1px 1px rgba(0,0,0,.1)!important; */
-}
-
-#foot tbody tr>td a:hover{
-	height:36px;
-	background:#fff!important;
-/* 	outline:1px solid; */
-	box-shadow: 0 0px 10px 1px rgba(0,0,0,.1)!important;
 }
 
 #foot #navcnt a {
@@ -347,21 +333,22 @@ body {
 /* menu */
 
 #myGoogleMenuButton {
-max-width: 60px;
-    /* background: #4285f4; */
-    color: #2196F3;
-    line-height: 1!important;
-    height: inherit!important;
-    padding: 10px;
-    box-sizing: border-box!important;
-    border-radius: 3px;
-    margin-right: 10px;
-    cursor: pointer;
-    position: absolute;
+	max-width: 60px;
+/* 	background: #4285f4; */
+/* 	color: #fff; */
+	line-height: 1!important;
+	height: inherit!important;
+	padding: 10px;
+	box-sizing: border-box!important;
+	border-radius: 3px;
+	margin-right: 10px;
+	cursor: pointer;
+	position: absolute;
     margin-left: -70px;
-    /* margin-left: 50px; */
-    margin-top: 5px;
+/*       margin-left: 50px; */
+    margin-top: 17px;
     font-size: 16px;
+  
 }
 
 #myGoogleMenuButton:hover {
