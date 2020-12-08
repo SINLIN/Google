@@ -40,9 +40,13 @@ body {
 
 .sfbg {
 	position: fixed!important;
-	background: #f1f2f3!important;
+	background: #eaeaea!important;
 	box-shadow: none!important;
 	height: 74px!important;
+}
+.yg51vc{
+    	background: #eaeaea!important;
+
 }
 
 #hdtb-tls,
@@ -81,7 +85,7 @@ body {
 .gsfi,
 .lst {
 	font: 20px arial!important;
-	font-weight: bold;
+/* 	font-weight: bold; */
 	line-height: 1;
 }
 
@@ -103,6 +107,7 @@ body {
 
 .UUbT9 {
 	margin-top: 5px!important;
+   max-width:640px!important; 
 }
 
 .aajZCb {
@@ -200,9 +205,7 @@ body {
     box-shadow: 0 0px 30px 1px rgba(0,0,0,.1);
 }
 
-#rso>div{
-   margin-bottom:0px!important;
-}
+
     
 
 .xERobd {
@@ -213,16 +216,36 @@ body {
     text-decoration: none!important;
 }
 
+#res .g, .KIy09e {
+    width:640px;
+}
+
 /* #res h3>div, */
 #res h3 {
-	font-size: 16px!important;
-   font-weight:bold;
+	font-size: 18px!important;
+/*    font-weight:bold; */
 	color: #014aa5!important;
 	margin-bottom: 5px!important;
 	text-decoration: none!important;
 	position: relative!important;
-  
+   top:-23px; 
 
+}
+#res .eFM0qc,
+#res h3 + div {
+   margin-top:25px;
+}
+
+#res .eFM0qc{
+      opacity:0;
+}
+#res .eFM0qc:hover{
+     opacity:1;
+    transition: opacity 1s; 
+}
+
+#res .HiHjCd > a{
+    color:#000;
 }
 
 #res h3 span{
@@ -235,7 +258,7 @@ body {
 	width: 0;
 	left: 100%;
 	bottom: -1px;
-	border-bottom: 2px solid;
+	border-bottom: 1px solid;
 	-webkit-transition: width 350ms, left 350ms;
 	-moz-transition: width 350ms, left 350ms;
 	transition: width 350ms, left 350ms;
@@ -346,7 +369,7 @@ body {
 	position: absolute;
     margin-left: -70px;
 /*       margin-left: 50px; */
-    margin-top: 17px;
+    margin-top: 5px;
     font-size: 16px;
   
 }
