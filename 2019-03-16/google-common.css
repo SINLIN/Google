@@ -358,6 +358,7 @@ div[role="navigation"] tbody tr>td:not(first-of-type):not(last-of-type):after{
     right:0;
 /*     box-shadow:0 0 0.25rem rgba(0, 0, 0, 0.075) !important; */
     box-shadow:0 0px 20px 1px rgba(0,0,0,.1)!important;
+    z-index: -1;
 }
 
 div[role="navigation"] tbody tr>td[class]{
