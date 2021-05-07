@@ -12,8 +12,9 @@
 #bottomads,
 #botstuff,
 #rhs .kno-ftr.rhsvw,
+/* #rso>div>div:not([class]), */
 
-#rso>div>div:not([class]),
+#rso>*:not([class="g"]),
 #imagebox_bigimages,
 #xjs td span,
 #tads {
@@ -184,6 +185,7 @@ body {
 /* .googlelists>.g, */
 /* .bkWMgd>.g, */
 /* .srg>.gk, */
+#rso>.g,
 #rso>div>.g
  {
 	box-sizing: border-box!important;
@@ -198,6 +200,7 @@ body {
     margin-bottom: 10px!important;
 }
 
+#rso>.g:after,
 #rso>div>.g:after{
     content: "";
     z-index: -1;
@@ -252,10 +255,12 @@ body {
     color:#000;
 }
 
+#res h3,
 #res h3 span{
     position: relative!important;
 }
 
+#res h3:after,
 #res h3 span:after {
 	content: "";
 	position: absolute;
@@ -268,6 +273,7 @@ body {
 	transition: width 350ms, left 350ms;
 }
 
+#res h3:hover:after,
 #res h3 span:hover:after {
 	left: 0;
 	width: 100%;
@@ -358,7 +364,6 @@ div[role="navigation"] tbody tr>td:not(first-of-type):not(last-of-type):after{
     right:0;
 /*     box-shadow:0 0 0.25rem rgba(0, 0, 0, 0.075) !important; */
     box-shadow:0 0px 20px 1px rgba(0,0,0,.1)!important;
-    z-index: -1;
 }
 
 div[role="navigation"] tbody tr>td[class]{
