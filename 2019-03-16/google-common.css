@@ -358,6 +358,7 @@ div[role="navigation"] tbody tr>td {
 div[role="navigation"] tbody tr>td:not(first-of-type):not(last-of-type):after{
     content:"";
     position:absolute;
+    z-index:-1;
     top:0;
     left:0;
     bottom:0;
@@ -378,6 +379,12 @@ div[role="navigation"] tbody tr>td[class]{
 div[role="navigation"] tbody tr>td a {
    text-decoration: none;
 	font-size: 16px;
+   position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+/*    border:1px dashed red; */
 	
 
 }
@@ -394,6 +401,8 @@ div[role="navigation"] tbody tr>td:not([class]):hover,
 div[role="navigation"] tbody tr>td:not([class]):hover a{
      color:#673ab7!important;
 }
+
+
 
 
 
