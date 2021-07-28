@@ -36,7 +36,15 @@ body {
 /* head layout */
 
 #tsf {
-	position: fixed!important;
+/* 	position: fixed!important; */
+}
+
+#searchform >.sfbg g-img{
+    opacity:0!important;
+}
+
+.J1hqV{
+    opacity:0!important;
 }
 
 .sfbg {
@@ -48,6 +56,11 @@ body {
 .yg51vc{
     	background: #eaeaea!important;
 
+}
+
+#searchform >.sfbg{
+        	background: #eaeaea!important;
+ 
 }
 
 #hdtb-tls,
